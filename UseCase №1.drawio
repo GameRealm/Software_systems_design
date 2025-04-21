@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram id="XROLsCZljSViE7ELH3Nb" name="UseCase1">
+    <mxGraphModel dx="1606" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1M2TmBrges-G-51OKqi-1" value="Користувач" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#0050ef;strokeColor=#001DBC;treeMoving=0;fontColor=light-dark(#FFFFFF,#FFFFFF);fontSize=13;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-2" value="Авторизація в системі" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="100" width="146" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-3" value="&#xa;Введення маршруту&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-4" value="&#xa;Вибір типу транспорту&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="230" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-5" value="&#xa;Пошук оптимального маршруту&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="350" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-6" value="&#xa;Перегляд деталей маршруту&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="100" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-1" target="n1M2TmBrges-G-51OKqi-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="114" as="sourcePoint" />
+            <mxPoint x="733" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-1" target="n1M2TmBrges-G-51OKqi-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="124" as="sourcePoint" />
+            <mxPoint x="743" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-1" target="n1M2TmBrges-G-51OKqi-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="134" as="sourcePoint" />
+            <mxPoint x="753" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-1" target="n1M2TmBrges-G-51OKqi-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="70" as="sourcePoint" />
+            <mxPoint x="690" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-11" value="include" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-1" target="n1M2TmBrges-G-51OKqi-2" edge="1">
+          <mxGeometry x="-0.0629" y="-2" width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="280" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-12" value="Аналіз затор" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="460" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-13" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-5" target="n1M2TmBrges-G-51OKqi-12" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="sourcePoint" />
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-14" value="Помилка авторизації" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="95" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-15" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-2" target="n1M2TmBrges-G-51OKqi-14" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="555" y="380" as="sourcePoint" />
+            <mxPoint x="557" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-16" value="Відсутність маршрутів" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-17" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-3" target="n1M2TmBrges-G-51OKqi-16" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="806" y="130" as="sourcePoint" />
+            <mxPoint x="880" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-18" value="Технічний збій" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="290" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-19" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.274;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="n1M2TmBrges-G-51OKqi-3" target="n1M2TmBrges-G-51OKqi-18" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="840" y="305" as="sourcePoint" />
+            <mxPoint x="950" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-20" value="Погодні умови" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="460" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-21" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.436;exitY=0.988;exitDx=0;exitDy=0;entryX=0.704;entryY=0.088;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="n1M2TmBrges-G-51OKqi-5" target="n1M2TmBrges-G-51OKqi-20" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="555" y="400" as="sourcePoint" />
+            <mxPoint x="673" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;Введення за допомогою геолокації.&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="890" y="380" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-23" value="Введення вручну" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="390" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-24" value="include" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.784;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-3" target="n1M2TmBrges-G-51OKqi-23" edge="1">
+          <mxGeometry x="-0.0629" y="-2" width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="330" as="sourcePoint" />
+            <mxPoint x="862" y="372.5" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-25" value="include" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-3" target="n1M2TmBrges-G-51OKqi-22" edge="1">
+          <mxGeometry x="-0.0629" y="-2" width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="121" as="sourcePoint" />
+            <mxPoint x="692" y="126" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-26" value="Громадський транспорт" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-27" value="Автомобільний транспорт" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-28" value="Комбінація видів" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-29" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-4" target="n1M2TmBrges-G-51OKqi-27" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="302" y="250" as="sourcePoint" />
+            <mxPoint x="180" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-30" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n1M2TmBrges-G-51OKqi-4" target="n1M2TmBrges-G-51OKqi-26" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="302" y="258" as="sourcePoint" />
+            <mxPoint x="180" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1M2TmBrges-G-51OKqi-31" value="e&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xtend&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.386;exitY=0.972;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="n1M2TmBrges-G-51OKqi-4" target="n1M2TmBrges-G-51OKqi-28" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="342" y="280" as="sourcePoint" />
+            <mxPoint x="220" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Діаграма станів та переходів" id="nFUOy7fFMwE6h8ElpY0S">
+    <mxGraphModel dx="2088" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-1" target="rt1w_eB6s1bEtWNk3IKX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-4" target="rt1w_eB6s1bEtWNk3IKX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Введення деталей поїздки&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp; &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;entry&amp;nbsp; &amp;nbsp; /&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Відкрити поле для введення початкової точки та пункту призначення&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;pre&gt; do    / Користувач вводить дані&lt;br&gt; exit  / Перевірка валідності введених даних&lt;/pre&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="286.25" y="80" width="447.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-6" target="rt1w_eB6s1bEtWNk3IKX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;nbsp;Обчислення оптимального маршруту&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; entry&amp;nbsp; &amp;nbsp; /&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ініціалізувати модуль розрахунку маршруту&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;pre&gt; do    / Обчислення оптимального шляху з врахуванням трафіку, часу&lt;br&gt; exit  / Збереження розрахованого маршруту в тимчасову пам&#39;ять&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-8" target="rt1w_eB6s1bEtWNk3IKX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;nbsp;Перегляд запропонованого маршруту&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; entry&amp;nbsp; &amp;nbsp; /&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Завантажити розрахований маршрут для відображення&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;pre&gt; do    / Візуалізація маршруту на карті, показ ключових точок&lt;br&gt; exit  / Очікування підтвердження або редагування&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="370" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-10" target="rt1w_eB6s1bEtWNk3IKX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Підтвердження/Редагування маршруту&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; entry&amp;nbsp; &amp;nbsp; /&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Надати користувачу можливість підтвердити або редагувати маршрут&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;pre&gt; do    / Виконання редагування, якщо користувач змінює маршрут&lt;br&gt; exit  / Маршрут підтверджено або знову розраховано&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-12" target="rt1w_eB6s1bEtWNk3IKX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Відправка маршруту диспетчеру&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; entry&amp;nbsp; &amp;nbsp; /&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Підготувати дані маршруту для відправки&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;pre&gt; do    / Відправка підтвердженого маршруту до системи диспетчеризації&lt;br&gt; exit  / Повідомлення про успішне завершення процесу&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="660" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-14" value="Запуск застосунку() / Відобразити форму введення даних" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="40" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-15" value="Дані введено()[Дані валідні] / Обчислити маршрут" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-16" value="Маршрут розраховано() / Відобразити маршрут" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="313.5" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-17" value="Маршрут вибрано()(Пусто) / Надати можливість редагування або підтвердження" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-18" value="Редагування розпочато() / Повернути форму редагування даних" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="rt1w_eB6s1bEtWNk3IKX-8" target="rt1w_eB6s1bEtWNk3IKX-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="385" />
+              <mxPoint x="210" y="385" />
+              <mxPoint x="210" y="437" />
+              <mxPoint x="280" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-20" value="Підтвердження отримано()(Пусто) / Надіслати маршрут для обробки" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt1w_eB6s1bEtWNk3IKX-21" value="Маршрут надіслано()(Пусто) / Завершити процес планування" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="750" width="285" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

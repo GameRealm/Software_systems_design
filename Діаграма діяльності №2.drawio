@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Діаграма діяльності №2" id="eQTVywXdYiYJBbqYhmPL">
+    <mxGraphModel dx="1491" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hHpq290SMSUzKi13ayw9-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-1" target="hHpq290SMSUzKi13ayw9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-4" target="hHpq290SMSUzKi13ayw9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-4" value="Диспетчер запускає систему на комп’ютері або мобільному пристрої" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="90" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-6" target="hHpq290SMSUzKi13ayw9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-6" value="Диспетчер вводить логін та пароль" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415" y="170" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-8" target="hHpq290SMSUzKi13ayw9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-8" value="Система перевіряє облікові дані" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="425" y="250" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-11" target="hHpq290SMSUzKi13ayw9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-11" target="hHpq290SMSUzKi13ayw9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="320" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-12" value="Облікові дані коректні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-14" target="hHpq290SMSUzKi13ayw9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-14" value="Вивести повідомлення &quot;Доступ відхилено&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-16" target="hHpq290SMSUzKi13ayw9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-16" value="Надати доступ до функціоналу моніторингу" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-18" target="hHpq290SMSUzKi13ayw9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-18" value="Диспетчер відкриває інтерфейс моніторингу" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="550" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-20" target="hHpq290SMSUzKi13ayw9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-20" value="Система відображає поточне місцезнаходження транспортних засобів на карті" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="640" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-22" target="hHpq290SMSUzKi13ayw9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-22" value="Моніторинг виконується" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="740" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-24" target="hHpq290SMSUzKi13ayw9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="418.75" y="827" width="212.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-25" value="Диспетчер вирішує вийти до завершення моніторингу?" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="446.25" y="837" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-28" target="hHpq290SMSUzKi13ayw9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-24" target="hHpq290SMSUzKi13ayw9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-28" value="Скидання налаштувань сесії" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="264.25" y="930" width="163.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-30" target="hHpq290SMSUzKi13ayw9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-30" value="Диспетчер завершує моніторинг" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="428" y="1090" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHpq290SMSUzKi13ayw9-32" target="hHpq290SMSUzKi13ayw9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-32" value="Диспетчер виходить із системи" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="422.38" y="1160" width="211.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-33" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="513" y="1241" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-34" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="318" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-35" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="406.25" y="318" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-36" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="775" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-37" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="388" y="820" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hHpq290SMSUzKi13ayw9-38" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="820" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

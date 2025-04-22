@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Діаграма діяльності №3" id="j5eI79smx3JyKH6LscXp">
+    <mxGraphModel dx="1606" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gD7J43oQn7uLstl8G2ot-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="646" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-1" target="gD7J43oQn7uLstl8G2ot-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="661" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-4" target="gD7J43oQn7uLstl8G2ot-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-4" value="Диспетчер відкриває систему моніторингу" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="120" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-6" target="gD7J43oQn7uLstl8G2ot-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-6" value="Активує модуль прогнозу погоди" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="200" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-8" target="gD7J43oQn7uLstl8G2ot-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-8" value="Система отримує метеодані" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="581" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-11" target="gD7J43oQn7uLstl8G2ot-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-11" target="gD7J43oQn7uLstl8G2ot-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="571" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-12" value="Метеодані отримано?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="591" y="365" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-13" value="Вивести повідомлення &quot;Помилка отримання метеоданих&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="783.5" y="450" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-15" target="gD7J43oQn7uLstl8G2ot-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-15" value="Аналіз погодних умов" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="356" y="450" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-18" target="gD7J43oQn7uLstl8G2ot-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-18" target="gD7J43oQn7uLstl8G2ot-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="346" y="520" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-19" value="Несприятливі умови?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="371" y="535" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-20" value="Відобразити інформацію про сприятливі погодні умови" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="556" y="630" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-21" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="753.5" y="335" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-22" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="528.5" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-24" target="gD7J43oQn7uLstl8G2ot-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-24" value="Диспетчер переглядає рекомендації" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="176" y="630" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-27" target="gD7J43oQn7uLstl8G2ot-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-27" target="gD7J43oQn7uLstl8G2ot-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="196" y="710" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-28" value="Коригувати маршрути?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="221" y="725" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-29" value="Попередити водіїв про небезпеку" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="386" y="820" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-30" value="Коригувати маршрут" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="46" y="820" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-31" value="Ні" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="386" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-32" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="335" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-33" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="316" y="520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-34" value="Так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="156" y="710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="276" y="930" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-29" target="gD7J43oQn7uLstl8G2ot-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-30" target="gD7J43oQn7uLstl8G2ot-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-38" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="1010" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-35" target="gD7J43oQn7uLstl8G2ot-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-20" target="gD7J43oQn7uLstl8G2ot-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-42" target="gD7J43oQn7uLstl8G2ot-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-42" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="751" y="1080" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-13" target="gD7J43oQn7uLstl8G2ot-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-38" target="gD7J43oQn7uLstl8G2ot-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-46" target="gD7J43oQn7uLstl8G2ot-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-46" value="Система оновлює інформацію в реальному часі" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="631" y="1180" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gD7J43oQn7uLstl8G2ot-48" target="gD7J43oQn7uLstl8G2ot-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-48" value="Диспетчер завершує сесію" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="696" y="1270" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gD7J43oQn7uLstl8G2ot-49" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="766" y="1350" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

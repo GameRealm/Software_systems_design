@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Діаграма станів та переходів" id="glGEVIdJg_Ucd_eyQe0y">
+    <mxGraphModel dx="3257" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-1" target="hBi3vR4-DUglPxBAaVjq-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-4" target="hBi3vR4-DUglPxBAaVjq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-4" value="Ініціалізація системи" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293.75" y="100" width="122.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-5" value="OnInit" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-7" target="hBi3vR4-DUglPxBAaVjq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Самодіагностика та Завантаження Конфігурації&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Запустити модуль самодіагностики&lt;br&gt;  do   / Перевірка працездатності компонентів та завантаження конфігурації&lt;br&gt;  exit / Конфігурацію завантажено&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="200" width="525" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-10" target="hBi3vR4-DUglPxBAaVjq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-10" target="hBi3vR4-DUglPxBAaVjq-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Прийом запитів та Вхідних Даних&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt;  do    / Прийом запитів від пасажирів і диспетчерів&lt;br&gt;  exit  / Запит отримано&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="171.25" y="360" width="367.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-12" target="hBi3vR4-DUglPxBAaVjq-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Валідація запитів та Фільтрація&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Розпочати перевірку формату і параметрів запиту&lt;br&gt; do    / Валідація даних та фільтрація невірних запитів&lt;br&gt; exit  / Дані запиту валідні&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="165" y="500" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-14" target="hBi3vR4-DUglPxBAaVjq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Планування маршрутів і Розрахунок Оптимальних Шляхів&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Ініціювати розрахунок маршруту&lt;br&gt; do    / Обчислення оптимального маршруту з урахуванням дорожніх умов і трафіку&lt;br&gt; exit  / Маршрут сформовано&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="690" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-16" target="hBi3vR4-DUglPxBAaVjq-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Початок перевезення та Виконання Рейсу&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Підготувати транспортний засіб та пасажирів&lt;br&gt; do    / Посадка пасажирів та старт руху&lt;br&gt; exit  / Рух розпочато&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1060" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-19" target="hBi3vR4-DUglPxBAaVjq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-19" target="hBi3vR4-DUglPxBAaVjq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Диспетчеризація та Розподіл Транспортних Засобів&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Отримати розрахований маршрут, підготувати завдання&lt;br&gt; do    / Розподіл завдань серед транспортних засобів та інформування диспетчерів&lt;br&gt; exit  / Завдання прийнято транспортним засобом&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="880" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-22" target="hBi3vR4-DUglPxBAaVjq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-22" target="hBi3vR4-DUglPxBAaVjq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Реальний моніторинг, Контроль та Адаптація&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Активувати GPS-моніторинг&lt;br&gt; do    / Відстеження руху, контроль затримок, оновлення параметрів&lt;br&gt; exit  / Дані зібрано&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1240" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Обробка інцидентів та Аварійних Ситуацій&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Запустити аварійний протокол та сповістити диспетчера&lt;br&gt; do    / Реагувати на технічні несправності і аварійні ситуації&lt;br&gt; exit  / Інцидент усунуто&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1450" width="450" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-25" target="hBi3vR4-DUglPxBAaVjq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Завершення операцій, Архівація Даних та Формування Звітів&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Зафіксувати результати перевезення&lt;br&gt; do    / Архівація історичних даних та формування звітів&lt;br&gt; exit  / Операцію завершено&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1052.5" width="390" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-27" target="hBi3vR4-DUglPxBAaVjq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Аналіз операцій та Зворотній зв&#39;язок&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;pre&gt; entry / Запустити модуль аналізу ефективності&lt;br&gt; do    / Генерація рекомендацій та оптимізація процесів&lt;br&gt; exit  / Аналіз завершено&lt;/pre&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="610" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-30" target="hBi3vR4-DUglPxBAaVjq-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-499" y="395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Завершення роботи&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;pre&gt; entry / Підготовка до завершення: збір останніх даних, припинення з&#39;єднань&lt;br&gt; do    / Виконання процесу завершення: збереження архіву, формування звіту&lt;br&gt; exit  / Система успішно завершила роботу&lt;/pre&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="352.5" width="510" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hBi3vR4-DUglPxBAaVjq-22" target="hBi3vR4-DUglPxBAaVjq-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="69" y="1262" />
+              <mxPoint x="69" y="1308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-32" value="  &lt;br/&gt;  Старт системи ініційовано() / Створити первинне з’єднання" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-33" value="Ініціалізація завершена() / Завантажити налаштування з файлу" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-34" value="Запит отримано()[Дані запиту валідні (формат, параметри, часові межі)]/Запустити процедуру фільтрації та валідації" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="437.5" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-35" value="Запит пройшов валідацію() / Передати дані модулю маршрутизації та розрахувати оптимальний шлях" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-36" value="Маршрут сформовано() / Розподілити завдання водіям і сповістити диспетчерів" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="810" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-37" value="Завдання прийнято транспортним засобом() / Ініціювати старт рейсу, повідомити про початок перевезення" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="990" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-38" value="Рух розпочато() / Активувати модуль моніторингу" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1180" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-39" value="Виявлено незначну затримку()[Затримка не перевищує критичний поріг]/Оновити дані моніторингу та продовжити контроль" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1260" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-40" value="Виявлено&amp;nbsp; інцидент()[Показники перевищують допустимі межі]/Запустити протокол" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1370" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-41" value="Перевезення завершено() / Зафіксувати результати операції, зберегти архів та згенерувати звіт" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1190" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-42" value="Запис сформовано() / Запустити модуль аналізу ефективності та оптимізації" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="860" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-43" value="Аналіз завершено() / Повернути систему до прийому запитів" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="447.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-44" value="Було вирішено завершити роботу()/ Запуск згортання всіх екранів" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="447.5" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBi3vR4-DUglPxBAaVjq-45" value="Було завершено роботу всіх систем&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="447.5" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
